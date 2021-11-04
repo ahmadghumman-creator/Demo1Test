@@ -12,4 +12,4 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python train.py
-          cat metrics.txt >> report.md
+          cat metrics.txt
